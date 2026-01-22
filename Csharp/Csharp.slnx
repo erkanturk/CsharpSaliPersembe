@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="01_Algoritma/01_Algoritma.csproj" />
+  <Project Path="02_Degiskenler/02_Degiskenler.csproj" Id="dc18e8dd-d987-4579-a792-a63bf44cd913" />
+  <Project Path="03_Operatorler/03_Operatorler.csproj" Id="815e3507-1da7-4ba9-95f3-e854f83ed5ea" />
+  <Project Path="04_TurDonusumu/04_TurDonusumu.csproj" Id="5aa0cc27-95a6-478f-886d-1ae24c5b6372" />
+  <Project Path="05_If_Else/05_If_Else.csproj" Id="63683ef4-d8a5-4c1b-8a43-5ca7c68392bf" />
+  <Project Path="05_If_Else_2/05_If_Else_2.csproj" Id="cf25affb-0d60-4926-b968-b40fcb1a5d76" />
+</Solution>
