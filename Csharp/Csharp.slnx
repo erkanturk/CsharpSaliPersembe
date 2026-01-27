@@ -6,4 +6,7 @@
   <Project Path="05_If_Else/05_If_Else.csproj" Id="63683ef4-d8a5-4c1b-8a43-5ca7c68392bf" />
   <Project Path="05_If_Else_2/05_If_Else_2.csproj" Id="cf25affb-0d60-4926-b968-b40fcb1a5d76" />
   <Project Path="06_Random/06_Random.csproj" Id="95ddf6ba-1356-43fd-906a-9638c815cc97" />
+  <Project Path="07_OdevCozum_if_Else/07_OdevCozum_if_Else.csproj" Id="cba6abea-01a8-4601-920b-792cee64d622" />
+  <Project Path="08_Switch_Case/08_Switch_Case.csproj" Id="bc3c1319-9f0b-4898-89aa-23a385045532" />
+  <Project Path="09_Try_Catch/09_Try_Catch.csproj" Id="2d8f78b4-7854-41d9-82ac-ec8946c96255" />
 </Solution>
