@@ -11,4 +11,7 @@
   <Project Path="09_Try_Catch/09_Try_Catch.csproj" Id="2d8f78b4-7854-41d9-82ac-ec8946c96255" />
   <Project Path="10_Do_While/10_Do_While.csproj" Id="cc43875a-80a3-45df-8153-7011a5878f40" />
   <Project Path="11_While/11_While.csproj" Id="a145b3b0-7d99-42bc-9ef6-c8f0194d8f7d" />
+  <Project Path="12_OdevCozum/12_OdevCozum.csproj" Id="edf7c7bb-6248-4604-abfc-8ad2ffe7b2b1" />
+  <Project Path="13_For/13_For.csproj" Id="1242fbf4-8f3c-4550-a57d-bcbcab751dcb" />
+  <Project Path="14_Diziler/14_Diziler.csproj" Id="fc9e2506-145c-4c6e-8479-926ea5515136" />
 </Solution>
