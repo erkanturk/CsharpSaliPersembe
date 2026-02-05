@@ -14,4 +14,5 @@
   <Project Path="12_OdevCozum/12_OdevCozum.csproj" Id="edf7c7bb-6248-4604-abfc-8ad2ffe7b2b1" />
   <Project Path="13_For/13_For.csproj" Id="1242fbf4-8f3c-4550-a57d-bcbcab751dcb" />
   <Project Path="14_Diziler/14_Diziler.csproj" Id="fc9e2506-145c-4c6e-8479-926ea5515136" />
+  <Project Path="15_OtomatProje/15_OtomatProje.csproj" Id="7c967370-8629-4773-abfb-65ab51f97a53" />
 </Solution>

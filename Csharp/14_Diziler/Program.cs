@@ -108,17 +108,240 @@
             //{
             //    Console.WriteLine(c);
             //}
-            int[] sayilar = new int[10];
-            for (int i = 0; i < sayilar.Length; i++)
+            //int[] sayilar = new int[10];
+            //for (int i = 0; i < sayilar.Length; i++)
+            //{
+            //    //sayilar[i] = i;
+            //    Console.WriteLine($"{i + 1}.Değer gir");
+            //    sayilar[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+            //foreach (int item in sayilar)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
+
+            #region Object dizi
+            //object[] nesne = new object[10];
+            //nesne[0] = "Erkan";
+            //nesne[1] = 31;
+            //nesne[2] = 'E';
+            //nesne[3] = 5000.22;
+            //nesne[4] = true;
+            //nesne[5] = DateTime.Now;
+
+            //for (int i = 0; i < nesne.Length; i++)
+            //{
+            //    Console.WriteLine(nesne[i]);
+            //}
+
+            #endregion
+
+            #region Array Methods
+            //string[] adlar = { "Erkan", "Metin", "Hasret", "Cem", "İlknur" };
+            ////Array.Clear(adlar);//Adlar dizisindeki tüm elemanları temizler.
+            //Array.Clear(adlar, 1, 2);//ilk değer index ikincisi uzunluk değeri 
+            //foreach (string item in adlar)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            //string[] adlar2 = new string[10];
+            //Array.Copy(adlar, adlar2, 3);
+            //Array.Copy(adlar,1, adlar2, 2, 3);//Adlar dizisinin 1. index'inden başla 3 elemanını
+            //adlar2'nin 2.index değerinden intibaren ekle
+            //foreach (string item in adlar2)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            /***IndexOf***/
+            //string[] adlar = { "Erkan", "Metin", "Hasret", "Cem", "İlknur", "Erkan", "Cem", "Erkan", "Cem" };
+            //int index = Array.IndexOf(adlar, "Erkan");//indexof ilk bulduğu değeri getirir.
+            //Console.WriteLine(index);
+            //Console.WriteLine(adlar[index]);
+            //int index2 = Array.IndexOf(adlar, "Cem", 4);//aranacak index değerini belirterek diğer değeri buluruz
+            //Console.WriteLine(index2);
+            /*LastIndexOf*/
+            //int index = Array.LastIndexOf(adlar, "Erkan");
+            //int index2 = Array.LastIndexOf(adlar, "Erkan", 6);
+            //Console.WriteLine(index);
+            //Console.WriteLine(index2);
+            /*Sort&&Revers*/
+            //string[] sehirler = { "Zonguldak", "Amasya", "İstanbul", "İzmir", "Ankara", "Adana", "Bursa" };
+            //int[] plakalar = { 67, 05, 34, 35, 06, 01, 16 };
+            //for (int i = 0; i < sehirler.Length; i++)
+            //{
+            //    Console.WriteLine(sehirler[i] + " Plakaları: " + plakalar[i]);
+            //}
+            //Array.Sort(sehirler);//A dan Z ye sıralar
+            //Array.Sort(plakalar);//Küçükten büyüğe sıralar
+            //Console.WriteLine("********************");
+            //for (int i = 0; i < sehirler.Length; i++)
+            //{
+            //    Console.WriteLine(sehirler[i] + " Plakaları: " + plakalar[i]);
+            //}
+            //Array.Reverse(sehirler);//Tersine çevirme
+            //Array.Reverse(plakalar);//Tersine çevirme
+            //Console.WriteLine("********************");
+            //for (int i = 0; i < sehirler.Length; i++)
+            //{
+            //    Console.WriteLine(sehirler[i] + " Plakaları: " + plakalar[i]);
+            //}
+            //int[] sayilar = new int[3];
+            //sayilar[0] = 10;
+            //sayilar[1] = 20;
+            //sayilar[2] = 30;
+            //foreach (var item in sayilar)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            //Array.Resize(ref sayilar, 5);//Eleman sayısı olarak değerini artırıp yada azaltabiliriz.
+            //sayilar[3] = 40;
+            //sayilar[4] = 50;
+            ////sayilar[5] = 60;
+            //foreach (var item in sayilar)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            //Array.Resize(ref sayilar, 2);//Resize ile boyut artırıp azaltabiliriz var olan bir dizinin boyutu küçültülebilir.
+            //Console.WriteLine("**************");
+            //foreach (var item in sayilar)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            //Array.Resize(ref sayilar, 5);
+            //Console.WriteLine("**************");
+            //foreach (var item in sayilar)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
+            #region Örnek 1
+            //Kullanıcıdan kaç elemanı olduğunu isteyelim ve eğer 5 eleman derse dizinin boyutu
+            //5 olacak 3 derse 3 olacak
+            //Kullanıcının belirtiği personelleri diziye adını eklesin.
+            //Console.WriteLine("Personel Sayısı:");
+            //int pSayi = Convert.ToInt32(Console.ReadLine());
+            //string[] adlar = new string[pSayi];
+            //string[] soyad = new string[pSayi];
+
+            //for (int i = 0; i < adlar.Length; i++)
+            //{
+            //    Console.WriteLine("Ad:");
+            //    adlar[i] = Console.ReadLine();
+            //    Console.WriteLine("Soyad");
+            //    soyad[i] = Console.ReadLine();
+
+            //}
+
+            //Console.WriteLine("************");
+            //for (int i = 0; i < adlar.Length; i++)
+            //{
+            //    Console.WriteLine($"Ad: {adlar[i]} Soyad: {soyad[i]}");
+            //}
+            #endregion
+
+            #region TryParse
+            //while (true)
+            //{
+            //    Console.WriteLine("Personel Sayısı:");
+            //    string pSayi = Console.ReadLine();
+
+            //    if (int.TryParse(pSayi, out int s))
+            //    {
+            //        string[] adlar = new string[s];
+            //        string[] soyad = new string[s];
+
+            //        for (int i = 0; i < adlar.Length; i++)
+            //        {
+            //            Console.WriteLine("Ad:");
+            //            adlar[i] = Console.ReadLine();
+            //            Console.WriteLine("Soyad");
+            //            soyad[i] = Console.ReadLine();
+
+            //        }
+
+            //        Console.WriteLine("************");
+            //        for (int i = 0; i < adlar.Length; i++)
+            //        {
+            //            Console.WriteLine($"Ad: {adlar[i]} Soyad: {soyad[i]}");
+            //        }
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Yanlış değer girdiniz tekrar deneyin");
+            //    }
+            //}
+
+            Console.WriteLine("1.Sayı değerini giriniz");
+            int sayi = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("2.Sayı değerini giriniz");
+            int sayi2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Yapmak istediğiniz işlemi belirtiniz");
+            Console.WriteLine("1-topla\n2-carp\n3-cikar\n4-bol");
+            string islem = Console.ReadLine().ToLower();
+            if (int.TryParse(islem, out int number))
             {
-                //sayilar[i] = i;
-                Console.WriteLine($"{i+1}.Değer gir");
-                sayilar[i] = Convert.ToInt32(Console.ReadLine());
+                if (number == 1)
+                {
+                    Console.WriteLine(sayi + sayi2);
+                }
+                else if (number == 2)
+                {
+                    Console.WriteLine(sayi * sayi2);
+                }
+                else if (number == 3)
+                {
+                    Console.WriteLine(sayi - sayi2);
+                }
+                else if (number == 4)
+                {
+                    if (sayi2 != 0)
+                    {
+                        Console.WriteLine(sayi / sayi2);
+                    }
+                    else
+                    {
+                        Console.WriteLine("sayı sıfıra bölünemez");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Hatalı işlem");
+                }
             }
-            foreach (int item in sayilar)
+            else
             {
-                Console.WriteLine(item);
+                if (islem == "topla")
+                {
+                    Console.WriteLine(sayi + sayi2);
+                }
+                else if (islem == "carp")
+                {
+                    Console.WriteLine(sayi * sayi2);
+                }
+                else if (islem == "cikar")
+                {
+                    Console.WriteLine(sayi - sayi2);
+                }
+                else if (islem == "bol")
+                {
+                    if (sayi2 != 0)
+                    {
+                        Console.WriteLine(sayi / sayi2);
+                    }
+                    else
+                    {
+                        Console.WriteLine("sayı sıfıra bölünemez");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("hatalı işlem");
+                }
             }
+
+
+
             #endregion
 
         }
