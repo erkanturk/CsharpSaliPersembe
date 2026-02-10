@@ -15,4 +15,8 @@
   <Project Path="13_For/13_For.csproj" Id="1242fbf4-8f3c-4550-a57d-bcbcab751dcb" />
   <Project Path="14_Diziler/14_Diziler.csproj" Id="fc9e2506-145c-4c6e-8479-926ea5515136" />
   <Project Path="15_OtomatProje/15_OtomatProje.csproj" Id="7c967370-8629-4773-abfb-65ab51f97a53" />
+  <Project Path="16_Math_Methodlar/16_Math_Methodlar.csproj" Id="f920fa7f-96e8-43fe-8963-839c225fe38e" />
+  <Project Path="17_String_Methodlar/17_String_Methodlar.csproj" Id="791c39b8-58af-4ae4-8a45-95d350eac25d" />
+  <Project Path="18_Methods/18_Methods.csproj" Id="d27c040f-f472-4536-9b65-38f35cfa47e2" />
+  <Project Path="18_Methods_2/18_Methods_2.csproj" Id="ee0b09bb-3de6-4d60-9dc4-405c02c1fef3" />
 </Solution>

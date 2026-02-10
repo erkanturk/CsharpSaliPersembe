@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             #region proje
-            /* 
+          /* 
 
           Müşteri Daha önceden tanımlanmış bir ürün listesinden bir ürün seçecek. 
          Para girişi yapacak. Girilen para seçilen ürünün fiyatını karşılar ise ürün alındı, 
