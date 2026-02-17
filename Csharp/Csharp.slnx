@@ -19,4 +19,6 @@
   <Project Path="17_String_Methodlar/17_String_Methodlar.csproj" Id="791c39b8-58af-4ae4-8a45-95d350eac25d" />
   <Project Path="18_Methods/18_Methods.csproj" Id="d27c040f-f472-4536-9b65-38f35cfa47e2" />
   <Project Path="18_Methods_2/18_Methods_2.csproj" Id="ee0b09bb-3de6-4d60-9dc4-405c02c1fef3" />
+  <Project Path="19_Returns_Methods/19_Returns_Methods.csproj" Id="a246c8d0-1043-4a22-9ca5-25a9c77c6356" />
+  <Project Path="19_Returns_Methods2/19_Returns_Methods2.csproj" Id="58a4babb-6743-43f3-906f-edb469746130" />
 </Solution>

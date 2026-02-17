@@ -9,7 +9,7 @@
             //    string[] metinler = { "Merhaba", "Ben", "C#" };
             //    string ad = "Erkan";
             //    string soyad = "Türk";
-            //    string text = "    String Methodlar    ";
+            string text = "    String Methodlar    ";
 
             //    Console.WriteLine($"String uzunluğu: {metin.Length}");
             //    Console.WriteLine($"String büyültme: {metin.ToUpper()}");
@@ -28,7 +28,8 @@
             //    string adSoyad = string.Concat(ad, " ", soyad);
             //    Console.WriteLine("Birleştirilmiş: " + adSoyad);
             //    Console.WriteLine(text);
-            //    Console.WriteLine("Boşluklarından arındırma: " + text.Trim());//sağdaki soldaki boşlukları siler
+             Console.WriteLine("Boşluklarından arındırma: " + text.Trim());//sağdaki soldaki boşlukları siler
+             Console.WriteLine("Boşluklarından arındırma: " + text);//sağdaki soldaki boşlukları siler
             //    string[] diziyeDonusturulmusMetin = metin.Split(' ');
             //    for (int i = 0; i < degistirilmisMetin.Length; i++)
             //    {
