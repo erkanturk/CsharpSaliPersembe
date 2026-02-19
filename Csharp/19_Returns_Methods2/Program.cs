@@ -23,11 +23,11 @@
 
 
 
-            //int[] ints = DiziDondur();
-            //foreach (int i in ints)
-            //{
-            //    Console.WriteLine(i + 10);
-            //}
+            int[] ints = DiziDondur();
+            foreach (int i in ints)
+            {
+                Console.WriteLine(i + 10);
+            }
 
             //int[] dizi = { 10, 20, 30, 40, 60, 50, 44, 55, 66, 77, 88, 66, 99, 54, 66, 55 };
 
@@ -36,14 +36,14 @@
             //double indirim = KdvUygula();
             //indirim = indirim * 0.88;
 
-            //Console.WriteLine("Kdv li fiyata indirim uygulanmış değer: " + indirim);
-            Console.WriteLine("1.Ürün fiyatı");
-            double fiyat = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("2.Ürün fiyatı");
-            double fiyat2 = Convert.ToDouble(Console.ReadLine());
+            ////Console.WriteLine("Kdv li fiyata indirim uygulanmış değer: " + indirim);
+            //Console.WriteLine("1.Ürün fiyatı");
+            //double fiyat = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("2.Ürün fiyatı");
+            //double fiyat2 = Convert.ToDouble(Console.ReadLine());
 
-            //Console.WriteLine(KdvFiyat(fiyat, fiyat2));
-            Console.WriteLine(KdvFiyat(fiyat,fiyat2)*0.88);
+            ////Console.WriteLine(KdvFiyat(fiyat, fiyat2));
+            //Console.WriteLine(KdvFiyat(fiyat,fiyat2)*0.88);
 
         }
         static double KdvUygula()

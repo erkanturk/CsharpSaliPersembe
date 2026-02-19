@@ -21,4 +21,6 @@
   <Project Path="18_Methods_2/18_Methods_2.csproj" Id="ee0b09bb-3de6-4d60-9dc4-405c02c1fef3" />
   <Project Path="19_Returns_Methods/19_Returns_Methods.csproj" Id="a246c8d0-1043-4a22-9ca5-25a9c77c6356" />
   <Project Path="19_Returns_Methods2/19_Returns_Methods2.csproj" Id="58a4babb-6743-43f3-906f-edb469746130" />
+  <Project Path="20_Overload_Methods/20_Overload_Methods.csproj" Id="a4227c76-7ba7-46a2-8db3-c41b770bf09e" />
+  <Project Path="21_Params_Methods/21_Params_Methods.csproj" Id="f35dc02e-990b-473d-a14c-61b980018358" />
 </Solution>
