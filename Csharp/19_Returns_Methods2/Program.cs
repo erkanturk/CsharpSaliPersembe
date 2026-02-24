@@ -1,9 +1,7 @@
 ﻿namespace _19_Returns_Methods2
 {
     internal class Program
-    {   //ödev
-        //Kullanıcıdan alınacak 2 ürün fiyatından pahalı olana %30 indirim uygulayan method
-        //ve 3. ürünü almak isterse 3. ürünede %50 indirim uygulayacağız.
+    {  
         static void Main(string[] args)
         {
 

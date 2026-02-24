@@ -138,21 +138,21 @@
             #endregion
 
             #region Array Methods
-            //string[] adlar = { "Erkan", "Metin", "Hasret", "Cem", "İlknur" };
-            ////Array.Clear(adlar);//Adlar dizisindeki tüm elemanları temizler.
-            //Array.Clear(adlar, 1, 2);//ilk değer index ikincisi uzunluk değeri 
-            //foreach (string item in adlar)
-            //{
-            //    Console.WriteLine(item);
-            //}
-            //string[] adlar2 = new string[10];
-            //Array.Copy(adlar, adlar2, 3);
-            //Array.Copy(adlar,1, adlar2, 2, 3);//Adlar dizisinin 1. index'inden başla 3 elemanını
-            //adlar2'nin 2.index değerinden intibaren ekle
-            //foreach (string item in adlar2)
-            //{
-            //    Console.WriteLine(item);
-            //}
+            string[] adlar = { "Erkan", "Metin", "Hasret", "Cem", "İlknur" };
+            //Array.Clear(adlar);//Adlar dizisindeki tüm elemanları temizler.
+            Array.Clear(adlar, 1, 2);//ilk değer index ikincisi uzunluk değeri 
+            foreach (string item in adlar)
+            {
+                Console.WriteLine(item);
+            }
+            string[] adlar2 = new string[10];
+            Array.Copy(adlar, adlar2, 3);
+            Array.Copy(adlar, 1, adlar2, 2, 3);//Adlar dizisinin 1. index'inden başla 3 elemanını
+           // adlar2'nin 2.index değerinden intibaren ekle
+            foreach (string item in adlar2)
+            {
+                Console.WriteLine(item);
+            }
             /***IndexOf***/
             //string[] adlar = { "Erkan", "Metin", "Hasret", "Cem", "İlknur", "Erkan", "Cem", "Erkan", "Cem" };
             //int index = Array.IndexOf(adlar, "Erkan");//indexof ilk bulduğu değeri getirir.
@@ -160,60 +160,60 @@
             //Console.WriteLine(adlar[index]);
             //int index2 = Array.IndexOf(adlar, "Cem", 4);//aranacak index değerini belirterek diğer değeri buluruz
             //Console.WriteLine(index2);
-            /*LastIndexOf*/
+            ///*LastIndexOf*/
             //int index = Array.LastIndexOf(adlar, "Erkan");
             //int index2 = Array.LastIndexOf(adlar, "Erkan", 6);
             //Console.WriteLine(index);
             //Console.WriteLine(index2);
             /*Sort&&Revers*/
-            //string[] sehirler = { "Zonguldak", "Amasya", "İstanbul", "İzmir", "Ankara", "Adana", "Bursa" };
-            //int[] plakalar = { 67, 05, 34, 35, 06, 01, 16 };
-            //for (int i = 0; i < sehirler.Length; i++)
-            //{
-            //    Console.WriteLine(sehirler[i] + " Plakaları: " + plakalar[i]);
-            //}
-            //Array.Sort(sehirler);//A dan Z ye sıralar
-            //Array.Sort(plakalar);//Küçükten büyüğe sıralar
-            //Console.WriteLine("********************");
-            //for (int i = 0; i < sehirler.Length; i++)
-            //{
-            //    Console.WriteLine(sehirler[i] + " Plakaları: " + plakalar[i]);
-            //}
-            //Array.Reverse(sehirler);//Tersine çevirme
-            //Array.Reverse(plakalar);//Tersine çevirme
-            //Console.WriteLine("********************");
-            //for (int i = 0; i < sehirler.Length; i++)
-            //{
-            //    Console.WriteLine(sehirler[i] + " Plakaları: " + plakalar[i]);
-            //}
-            //int[] sayilar = new int[3];
-            //sayilar[0] = 10;
-            //sayilar[1] = 20;
-            //sayilar[2] = 30;
-            //foreach (var item in sayilar)
-            //{
-            //    Console.WriteLine(item);
-            //}
-            //Array.Resize(ref sayilar, 5);//Eleman sayısı olarak değerini artırıp yada azaltabiliriz.
-            //sayilar[3] = 40;
-            //sayilar[4] = 50;
-            ////sayilar[5] = 60;
-            //foreach (var item in sayilar)
-            //{
-            //    Console.WriteLine(item);
-            //}
-            //Array.Resize(ref sayilar, 2);//Resize ile boyut artırıp azaltabiliriz var olan bir dizinin boyutu küçültülebilir.
-            //Console.WriteLine("**************");
-            //foreach (var item in sayilar)
-            //{
-            //    Console.WriteLine(item);
-            //}
-            //Array.Resize(ref sayilar, 5);
-            //Console.WriteLine("**************");
-            //foreach (var item in sayilar)
-            //{
-            //    Console.WriteLine(item);
-            //}
+            string[] sehirler = { "Zonguldak", "Amasya", "İstanbul", "İzmir", "Ankara", "Adana", "Bursa" };
+            int[] plakalar = { 67, 05, 34, 35, 06, 01, 16 };
+            for (int i = 0; i < sehirler.Length; i++)
+            {
+                Console.WriteLine(sehirler[i] + " Plakaları: " + plakalar[i]);
+            }
+            Array.Sort(sehirler);//A dan Z ye sıralar
+            Array.Sort(plakalar);//Küçükten büyüğe sıralar
+            Console.WriteLine("********************");
+            for (int i = 0; i < sehirler.Length; i++)
+            {
+                Console.WriteLine(sehirler[i] + " Plakaları: " + plakalar[i]);
+            }
+            Array.Reverse(sehirler);//Tersine çevirme
+            Array.Reverse(plakalar);//Tersine çevirme
+            Console.WriteLine("********************");
+            for (int i = 0; i < sehirler.Length; i++)
+            {
+                Console.WriteLine(sehirler[i] + " Plakaları: " + plakalar[i]);
+            }
+            int[] sayilar = new int[3];
+            sayilar[0] = 10;
+            sayilar[1] = 20;
+            sayilar[2] = 30;
+            foreach (var item in sayilar)
+            {
+                Console.WriteLine(item);
+            }
+            Array.Resize(ref sayilar, 5);//Eleman sayısı olarak değerini artırıp yada azaltabiliriz.
+            sayilar[3] = 40;
+            sayilar[4] = 50;
+            //sayilar[5] = 60;
+            foreach (var item in sayilar)
+            {
+                Console.WriteLine(item);
+            }
+            Array.Resize(ref sayilar, 2);//Resize ile boyut artırıp azaltabiliriz var olan bir dizinin boyutu küçültülebilir.
+            Console.WriteLine("**************");
+            foreach (var item in sayilar)
+            {
+                Console.WriteLine(item);
+            }
+            Array.Resize(ref sayilar, 5);
+            Console.WriteLine("**************");
+            foreach (var item in sayilar)
+            {
+                Console.WriteLine(item);
+            }
             #endregion
             #region Örnek 1
             //Kullanıcıdan kaç elemanı olduğunu isteyelim ve eğer 5 eleman derse dizinin boyutu

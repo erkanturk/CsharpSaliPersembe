@@ -4,12 +4,7 @@
     {
         static void Main(string[] args)
         {
-            #region Ödev
-            // Rastgele 1-100 arasında 15 değer tutan bir dizideki tek ve çift sayıları ayrı ayrı dizilere atayan method
-            //Randomdan gelen değere göre tek dizi yada çift dizinin miktarı değişecek 
-
-
-            #endregion
+         
             /* Params Method
              * Params anahtar kelimesi bir methodda değişken sayıda argümanın aynı tipte geçirilmesine olanak tanır.
              * Params parametresi methodun son parametresi olmak zorundadır. ve yalnızca params anahtar kelimesi ile kullanılabilir.
