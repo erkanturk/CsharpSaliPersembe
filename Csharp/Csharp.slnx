@@ -26,4 +26,6 @@
   <Project Path="22_OdevCozum/22_OdevCozum.csproj" Id="ae335073-f2e2-4cb9-855b-0bf8730f0408" />
   <Project Path="23_Optional_Parameters_And_Summary/23_Optional_Parameters_And_Summary.csproj" Id="80862c6e-a740-4ad2-b4c6-65607812ae14" />
   <Project Path="24_Ref_Out/24_Ref_Out.csproj" Id="440c038d-bcc3-412c-ab25-6c449a9d7e9e" />
+  <Project Path="24_Ref_Out_2/24_Ref_Out_2.csproj" Id="ee833acb-3008-4702-bec6-b71ebc606964" />
+  <Project Path="25_Recursive_Method/25_Recursive_Method.csproj" Id="7d07300a-d5c7-4688-b517-3c3abb8a4b85" />
 </Solution>
