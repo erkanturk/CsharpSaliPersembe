@@ -28,4 +28,5 @@
   <Project Path="24_Ref_Out/24_Ref_Out.csproj" Id="440c038d-bcc3-412c-ab25-6c449a9d7e9e" />
   <Project Path="24_Ref_Out_2/24_Ref_Out_2.csproj" Id="ee833acb-3008-4702-bec6-b71ebc606964" />
   <Project Path="25_Recursive_Method/25_Recursive_Method.csproj" Id="7d07300a-d5c7-4688-b517-3c3abb8a4b85" />
+  <Project Path="26_ArrayList/26_ArrayList.csproj" Id="bf7cead0-5fc9-4c85-9fe4-18e0bc559e54" />
 </Solution>

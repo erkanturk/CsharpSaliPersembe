@@ -9,7 +9,7 @@
              * Method içerisinde işleme tabi tutup null değerden çıkarırız ve bu yapıyı methodun dışına çıkarabiliriz.
              
              */
-            //int sayi;
+            int sayi;
 
             //OutParametreli(out sayi, out int sayi2);
             //Console.WriteLine(sayi);
