@@ -33,4 +33,6 @@
   <Project Path="28_Queue/28_Queue.csproj" Id="88ee929e-b329-4dc7-97e5-0d55d88502e3" />
   <Project Path="29_Stack/29_Stack.csproj" Id="8e7dd754-9624-46cc-8ad8-134ac82a4427" />
   <Project Path="30_SortedList/30_SortedList.csproj" Id="46b939bc-cc7a-4213-805c-251ea17fb012" />
+  <Project Path="31_HashTable/31_HashTable.csproj" Id="9563f3fe-7dc8-4e38-ab77-aea909695dd1" />
+  <Project Path="32_List/32_List.csproj" Id="95243c87-6e4a-4d20-be9c-9645df5cf77a" />
 </Solution>
