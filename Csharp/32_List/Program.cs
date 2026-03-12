@@ -87,52 +87,64 @@
             //{
             //    Console.WriteLine(item);
             //}
-            Kisi kisi = new Kisi();//nesne oluşturma instance örneklem
-            kisi.Ad = "Erkan";
-            kisi.Soyad = "Türk";
-            kisi.Yas = 31;
+            //Kisi kisi = new Kisi();//nesne oluşturma instance örneklem
+            //kisi.Ad = "Erkan";
+            //kisi.Soyad = "Türk";
+            //kisi.Yas = 31;
 
-            Kisi kisi2 = new Kisi();
-            kisi2.Ad = "Altan";
-            kisi2.Soyad = "Demirci";
-            kisi2.Yas = 36;
+            //Kisi kisi2 = new Kisi();
+            //kisi2.Ad = "Altan";
+            //kisi2.Soyad = "Demirci";
+            //kisi2.Yas = 36;
 
-            Kisi kisi3 = new Kisi();
-            kisi3.Ad = "Tahsin";
-            kisi3.Soyad = "Canpolat";
-            kisi3.Yas = 34;
-            Random random = new Random();
+            //Kisi kisi3 = new Kisi();
+            //kisi3.Ad = "Tahsin";
+            //kisi3.Soyad = "Canpolat";
+            //kisi3.Yas = 34;
+            //kisi3.OlusturmaTarihi=DateTime.Now;
+            //Random random = new Random();
             List<Kisi> kisiler = new List<Kisi>();
-            kisiler.Add(kisi);
-            kisiler.Add(kisi2);
-            kisiler.Add(kisi3);
-            //kisiler.Add(random);
+            //kisiler.Add(kisi);
+            //kisiler.Add(kisi2);
+            //kisiler.Add(kisi3);
+            ////kisiler.Add(random);
 
-            foreach (var item in kisiler)
-            {
-                Console.WriteLine(item.Ad + " " + item.Soyad + " " + item.Yas);
-            }
-            Kisi kisi4=new Kisi();
-            for (int i = 0; i <= 1; i++)
-            {
-                var kisis =new Kisi();
-                
-                Console.WriteLine("Ad:");
-                kisis.Ad = Console.ReadLine();
-                Console.WriteLine("Soyad");
-                kisis.Soyad = Console.ReadLine();
-                Console.WriteLine("Yaş");
-                kisis.Yas = Convert.ToInt32(Console.ReadLine());
+            //foreach (var item in kisiler)
+            //{
+            //    Console.WriteLine(item.Ad + " " + item.Soyad + " " + item.Yas+" "+item.OlusturmaTarihi);
+            //}
+            Kisi kisi4 = new Kisi();
+            //for (int i = 0; i <= 3; i++)
+            //{
+            //    var kisis = new Kisi();
 
-                kisiler.Add(kisis);
-            }
-            Console.WriteLine("**********");
-            foreach (var item in kisiler)
-            {
-                Console.WriteLine(item.Ad + " " + item.Soyad + " " + item.Yas);
-            }
+            //    Console.WriteLine("Ad:");
+            //    kisis.Ad = Console.ReadLine();
+            //    Console.WriteLine("Soyad");
+            //    kisis.Soyad = Console.ReadLine();
+            //    Console.WriteLine("Yaş");
+            //    kisis.Yas = Convert.ToInt32(Console.ReadLine());
+            //    kisis.OlusturmaTarihi = DateTime.Now;
+
+            //    kisiler.Add(kisis);
+            //}
+            //Console.WriteLine("**********");
+            //foreach (var item in kisiler)
+            //{
+            //    Console.WriteLine(item.Ad + " " + item.Soyad + " " + item.Yas + " " + item.OlusturmaTarihi);
+            //}
             #endregion
-
+            //Boxing unboxing
+            object value = 123.34;
+            double sayi = (double)value;
+            int sayi2 = 12;
+            object deger = sayi2;//kutulama (boxing)
+            //string metin = "MErhaba";
+            //String metin2 = "Test";
+            Console.WriteLine(sayi);
+            object deger2 = 5;
+            double s = (double)deger2;//hata verir değer tam sayı tipinde
+            Console.WriteLine(s);
 
         }
     }
@@ -141,5 +153,6 @@
         public string Ad;//Property field nitelik özellik
         public string Soyad;
         public int Yas;
+        public DateTime OlusturmaTarihi;
     }
 }
