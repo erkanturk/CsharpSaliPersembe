@@ -37,4 +37,8 @@
   <Project Path="32_List/32_List.csproj" Id="95243c87-6e4a-4d20-be9c-9645df5cf77a" />
   <Project Path="33_Class_Object/33_Class_Object.csproj" Id="b17c3fcb-e993-40ea-807a-28b94244cdc2" />
   <Project Path="33_Class_Object_2/33_Class_Object_2.csproj" Id="c28cb3c6-1854-4c1e-80d3-e8bf877ddbbd" />
+  <Project Path="34_Enum/34_Enum.csproj" Id="93fce1b9-4ca2-483f-9c78-9126baeb9a09" />
+  <Project Path="35_Class_Constructor/35_Class_Constructor.csproj" Id="4a72c1f6-0cba-44f3-a235-2c51db5e692e" />
+  <Project Path="35_Class_Constructor_2/35_Class_Constructor_2.csproj" Id="b3e010f2-3314-4d53-b42a-594309f9ce8d" />
+  <Project Path="35_Class_Constructor_ReadOnly_Const/35_Class_Constructor_ReadOnly_Const.csproj" Id="b1ea2a23-c7a1-4274-b0a9-09279fa57dbf" />
 </Solution>
