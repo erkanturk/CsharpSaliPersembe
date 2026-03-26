@@ -41,4 +41,9 @@
   <Project Path="35_Class_Constructor/35_Class_Constructor.csproj" Id="4a72c1f6-0cba-44f3-a235-2c51db5e692e" />
   <Project Path="35_Class_Constructor_2/35_Class_Constructor_2.csproj" Id="b3e010f2-3314-4d53-b42a-594309f9ce8d" />
   <Project Path="35_Class_Constructor_ReadOnly_Const/35_Class_Constructor_ReadOnly_Const.csproj" Id="b1ea2a23-c7a1-4274-b0a9-09279fa57dbf" />
+  <Project Path="36_OOP_Encapsulation/36_OOP_Encapsulation.csproj" Id="231ca7c3-e112-4312-92c5-b2dbb2796885" />
+  <Project Path="36_OOP_Encapsulation_2/36_OOP_Encapsulation_2.csproj" Id="cf1791e5-22b1-41b9-80fe-94b7f80d5c4a" />
+  <Project Path="36_OOP_Encapsulation_3/36_OOP_Encapsulation_3.csproj" Id="d7edebbc-7a4d-430a-a2a4-77865dea7800" />
+  <Project Path="37_OOP_Inheritance/37_OOP_Inheritance.csproj" Id="4f132e52-b605-424a-a825-26d88cd78359" />
+  <Project Path="37_OOP_Inheritance_2/37_OOP_Inheritance_2.csproj" Id="706e38d4-0a33-42d7-96ca-f3c68ecfd43e" />
 </Solution>
