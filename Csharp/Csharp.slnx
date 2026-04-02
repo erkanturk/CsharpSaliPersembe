@@ -51,4 +51,7 @@
   <Project Path="39_OOP_Polymorphism/39_OOP_Polymorphism.csproj" Id="e11efacb-63cf-47f2-bff1-a3bb71d908d5" />
   <Project Path="39_OOP_Polymorphism_2/39_OOP_Polymorphism_2.csproj" Id="606c2bf8-0832-4790-9ae8-d2d10d5a0364" />
   <Project Path="39_OOP_Polymorphism_3/39_OOP_Polymorphism_3.csproj" Id="be1f32ef-33aa-4721-82fa-3320011d6b6f" />
+  <Project Path="40_OOP_Abstraction/40_OOP_Abstraction.csproj" Id="129ca9fb-3068-40d7-b406-84688d180d7e" />
+  <Project Path="40_OOP_Abstraction_2/40_OOP_Abstraction_2.csproj" Id="235f176b-906a-434d-b3e3-37d0189ccf3e" />
+  <Project Path="40_OOP_Abstraction_3/40_OOP_Abstraction_3.csproj" Id="6d2a5456-1f4b-45cc-8f31-a3577145f231" />
 </Solution>
