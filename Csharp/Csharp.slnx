@@ -54,4 +54,9 @@
   <Project Path="40_OOP_Abstraction/40_OOP_Abstraction.csproj" Id="129ca9fb-3068-40d7-b406-84688d180d7e" />
   <Project Path="40_OOP_Abstraction_2/40_OOP_Abstraction_2.csproj" Id="235f176b-906a-434d-b3e3-37d0189ccf3e" />
   <Project Path="40_OOP_Abstraction_3/40_OOP_Abstraction_3.csproj" Id="6d2a5456-1f4b-45cc-8f31-a3577145f231" />
+  <Project Path="40_OOP_Abstraction_4/40_OOP_Abstraction_4.csproj" Id="852241b6-8f25-4c22-a36b-3b1d47905aaf" />
+  <Project Path="41_OOP_Interface/41_OOP_Interface.csproj" Id="6733352b-f642-4c04-ae30-265f4976b3ba" />
+  <Project Path="41_OOP_Interface_2/41_OOP_Interface_2.csproj" Id="c59d9441-5dd0-4893-90b8-a858afcaa214" />
+  <Project Path="41_OOP_Interface_3/41_OOP_Interface_3.csproj" Id="6a4b881d-0606-4d58-a3d4-e1eca54e1bf1" />
+  <Project Path="41_OOP_Interface_4/41_OOP_Interface_4.csproj" Id="6ce55f7f-055b-4be1-9508-f055976109fe" />
 </Solution>
