@@ -21,6 +21,8 @@
             ogrenci.Create();
             ogrenci.Update();
             ogrenci.Delete();
+            Ogrenci ogrenci1 = new();
+
         }
     }
 }

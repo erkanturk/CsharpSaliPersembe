@@ -59,4 +59,9 @@
   <Project Path="41_OOP_Interface_2/41_OOP_Interface_2.csproj" Id="c59d9441-5dd0-4893-90b8-a858afcaa214" />
   <Project Path="41_OOP_Interface_3/41_OOP_Interface_3.csproj" Id="6a4b881d-0606-4d58-a3d4-e1eca54e1bf1" />
   <Project Path="41_OOP_Interface_4/41_OOP_Interface_4.csproj" Id="6ce55f7f-055b-4be1-9508-f055976109fe" />
+  <Project Path="42_Generic_Type/42_Generic_Type.csproj" Id="910ea48b-d93c-40bc-b980-ecc1248ac001" />
+  <Project Path="42_Generic_Type_Inheritance/42_Generic_Type_Inheritance.csproj" Id="1a1a74da-627d-44c9-bc04-5c14dafb2cb1" />
+  <Project Path="42_Generic_Type_Overload/42_Generic_Type_Overload.csproj" Id="0fd54ba1-3800-4fbb-8bec-b9e9ce3e89a9" />
+  <Project Path="43_Generic_Mimari/43_Generic_Mimari.csproj" Id="b3adde93-592c-4657-8a17-8b0506419d0c" />
+  <Project Path="44_Ado.Net/44_Ado.Net.csproj" Id="910cc9e6-dc02-4f40-bae9-8c4ba7320cab" />
 </Solution>
