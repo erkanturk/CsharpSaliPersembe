@@ -64,4 +64,6 @@
   <Project Path="42_Generic_Type_Overload/42_Generic_Type_Overload.csproj" Id="0fd54ba1-3800-4fbb-8bec-b9e9ce3e89a9" />
   <Project Path="43_Generic_Mimari/43_Generic_Mimari.csproj" Id="b3adde93-592c-4657-8a17-8b0506419d0c" />
   <Project Path="44_Ado.Net/44_Ado.Net.csproj" Id="910cc9e6-dc02-4f40-bae9-8c4ba7320cab" />
+  <Project Path="45_Form_Elemanlari/45_Form_Elemanlari.csproj" Id="30cc68cf-a7ac-4dd6-9aa4-15c7567a581e" />
+  <Project Path="46_BasitHesapMakinesi/46_BasitHesapMakinesi.csproj" Id="2be51234-b6c9-47e1-90ac-a6e99c1147b7" />
 </Solution>
