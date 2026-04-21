@@ -66,4 +66,5 @@
   <Project Path="44_Ado.Net/44_Ado.Net.csproj" Id="910cc9e6-dc02-4f40-bae9-8c4ba7320cab" />
   <Project Path="45_Form_Elemanlari/45_Form_Elemanlari.csproj" Id="30cc68cf-a7ac-4dd6-9aa4-15c7567a581e" />
   <Project Path="46_BasitHesapMakinesi/46_BasitHesapMakinesi.csproj" Id="2be51234-b6c9-47e1-90ac-a6e99c1147b7" />
+  <Project Path="47_ManavOtomasyon/47_ManavOtomasyon.csproj" Id="bd241657-d334-406b-9426-c5bfe1b8b607" />
 </Solution>

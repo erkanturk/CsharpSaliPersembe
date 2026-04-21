@@ -19,10 +19,10 @@
             //int sayi = SayiDondur();
             //double iskonto = sayi * 0.90;
             //Console.WriteLine(iskonto);
-            Yaz("Merhaba");
-            string degerAl = Yaz2();
-            Console.WriteLine(Yaz2("test"));
-            Console.WriteLine(degerAl);
+            //Yaz("Merhaba");
+            //string degerAl = Yaz2();
+            //Console.WriteLine(Yaz2("test"));
+            //Console.WriteLine(degerAl);
             #endregion
             #region  Araç Örneği
             //Console.WriteLine("Şu an ki hızınız");
