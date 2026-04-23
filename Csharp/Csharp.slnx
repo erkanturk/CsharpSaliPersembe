@@ -67,4 +67,5 @@
   <Project Path="45_Form_Elemanlari/45_Form_Elemanlari.csproj" Id="30cc68cf-a7ac-4dd6-9aa4-15c7567a581e" />
   <Project Path="46_BasitHesapMakinesi/46_BasitHesapMakinesi.csproj" Id="2be51234-b6c9-47e1-90ac-a6e99c1147b7" />
   <Project Path="47_ManavOtomasyon/47_ManavOtomasyon.csproj" Id="bd241657-d334-406b-9426-c5bfe1b8b607" />
+  <Project Path="48_Personel_Uygulamasi/48_Personel_Uygulamasi.csproj" Id="bcbe778d-b34c-40cc-b459-23fde52eeed6" />
 </Solution>
