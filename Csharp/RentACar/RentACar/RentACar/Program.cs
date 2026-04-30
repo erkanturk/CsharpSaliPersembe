@@ -1,3 +1,5 @@
+using RentACar.Data;
+
 namespace RentACar
 {
     internal static class Program
@@ -8,6 +10,7 @@ namespace RentACar
         [STAThread]
         static void Main()
         {
+            SeedDatabase.SeedAdmin();
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();

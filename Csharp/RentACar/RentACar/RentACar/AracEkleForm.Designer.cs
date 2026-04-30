@@ -129,6 +129,7 @@
             btnKaydet.TabIndex = 7;
             btnKaydet.Text = "Kaydet";
             btnKaydet.UseVisualStyleBackColor = false;
+            btnKaydet.Click += btnKaydet_Click;
             // 
             // btnIptal
             // 
@@ -142,6 +143,7 @@
             btnIptal.TabIndex = 8;
             btnIptal.Text = "İptal";
             btnIptal.UseVisualStyleBackColor = false;
+            btnIptal.Click += btnIptal_Click;
             // 
             // cmbMarka
             // 

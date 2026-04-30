@@ -31,8 +31,8 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            txtKullaniciAdi = new TextBox();
+            txtSifre = new TextBox();
             btnGiris = new Button();
             SuspendLayout();
             // 
@@ -66,21 +66,22 @@
             label3.TabIndex = 2;
             label3.Text = "Şifre";
             // 
-            // textBox1
+            // txtKullaniciAdi
             // 
-            textBox1.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            textBox1.Location = new Point(34, 90);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(205, 27);
-            textBox1.TabIndex = 3;
+            txtKullaniciAdi.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            txtKullaniciAdi.Location = new Point(34, 90);
+            txtKullaniciAdi.Name = "txtKullaniciAdi";
+            txtKullaniciAdi.Size = new Size(205, 27);
+            txtKullaniciAdi.TabIndex = 3;
             // 
-            // textBox2
+            // txtSifre
             // 
-            textBox2.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            textBox2.Location = new Point(34, 173);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(205, 27);
-            textBox2.TabIndex = 4;
+            txtSifre.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            txtSifre.Location = new Point(34, 173);
+            txtSifre.Name = "txtSifre";
+            txtSifre.PasswordChar = '*';
+            txtSifre.Size = new Size(205, 27);
+            txtSifre.TabIndex = 4;
             // 
             // btnGiris
             // 
@@ -94,6 +95,7 @@
             btnGiris.TabIndex = 5;
             btnGiris.Text = "Giriş Yap";
             btnGiris.UseVisualStyleBackColor = false;
+            btnGiris.Click += btnGiris_Click;
             // 
             // AdminLoginForm
             // 
@@ -101,8 +103,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(286, 268);
             Controls.Add(btnGiris);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(txtSifre);
+            Controls.Add(txtKullaniciAdi);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -117,8 +119,8 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox txtKullaniciAdi;
+        private TextBox txtSifre;
         private Button btnGiris;
     }
 }
