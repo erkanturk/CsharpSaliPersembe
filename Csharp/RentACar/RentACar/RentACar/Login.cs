@@ -35,7 +35,7 @@ namespace RentACar
                 {
                     MessageBox.Show($"Hoşgeldiniz {musteri.AdSoyad}", "Giriş başarılı", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     this.Hide();
-                    var arabaForm = new ArabaForm();
+                    var arabaForm = new ArabaForm(musteri);
                     arabaForm.Show();
                 }
                 else

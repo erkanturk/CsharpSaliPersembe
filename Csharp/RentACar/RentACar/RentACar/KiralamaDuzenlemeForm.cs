@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RentACar.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,7 +11,7 @@ namespace RentACar
 {
     public partial class KiralamaDuzenlemeForm : Form
     {
-        public KiralamaDuzenlemeForm()
+        public KiralamaDuzenlemeForm(Kiralama kiralama,Musteri musteri)
         {
             InitializeComponent();
         }
