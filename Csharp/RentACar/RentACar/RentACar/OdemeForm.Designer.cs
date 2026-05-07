@@ -123,6 +123,7 @@
             txtKartNo.Name = "txtKartNo";
             txtKartNo.Size = new Size(224, 23);
             txtKartNo.TabIndex = 7;
+            txtKartNo.TextChanged += txtKartNo_TextChanged;
             // 
             // txtKartSahibi
             // 
@@ -134,6 +135,7 @@
             // cmbAy
             // 
             cmbAy.FormattingEnabled = true;
+            cmbAy.Items.AddRange(new object[] { "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12" });
             cmbAy.Location = new Point(154, 274);
             cmbAy.Name = "cmbAy";
             cmbAy.Size = new Size(79, 23);
@@ -166,6 +168,7 @@
             btnOde.TabIndex = 12;
             btnOde.Text = "Ödemeyi Tamamla";
             btnOde.UseVisualStyleBackColor = false;
+            btnOde.Click += btnOde_Click;
             // 
             // btnIptal
             // 

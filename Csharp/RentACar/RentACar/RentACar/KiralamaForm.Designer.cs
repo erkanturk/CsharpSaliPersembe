@@ -56,6 +56,8 @@
             dtg_kiralamalar.ReadOnly = true;
             dtg_kiralamalar.Size = new Size(853, 465);
             dtg_kiralamalar.TabIndex = 1;
+            dtg_kiralamalar.CellDoubleClick += dtg_kiralamalar_CellDoubleClick;
+            dtg_kiralamalar.SelectionChanged += dtg_kiralamalar_SelectionChanged;
             // 
             // btn_YeniKiralama
             // 
@@ -69,6 +71,7 @@
             btn_YeniKiralama.TabIndex = 2;
             btn_YeniKiralama.Text = "Yeni Kiralama";
             btn_YeniKiralama.UseVisualStyleBackColor = false;
+            btn_YeniKiralama.Click += btn_YeniKiralama_Click;
             // 
             // btn_KiralamaDuzenle
             // 
@@ -82,6 +85,7 @@
             btn_KiralamaDuzenle.TabIndex = 2;
             btn_KiralamaDuzenle.Text = "Düzenle";
             btn_KiralamaDuzenle.UseVisualStyleBackColor = false;
+            btn_KiralamaDuzenle.Click += btn_KiralamaDuzenle_Click;
             // 
             // btn_KiralamaSil
             // 
@@ -95,6 +99,7 @@
             btn_KiralamaSil.TabIndex = 2;
             btn_KiralamaSil.Text = "Sil";
             btn_KiralamaSil.UseVisualStyleBackColor = false;
+            btn_KiralamaSil.Click += btn_KiralamaSil_Click;
             // 
             // btn_Kapat
             // 
@@ -108,6 +113,7 @@
             btn_Kapat.TabIndex = 2;
             btn_Kapat.Text = "Kapat";
             btn_Kapat.UseVisualStyleBackColor = false;
+            btn_Kapat.Click += btn_Kapat_Click;
             // 
             // KiralamaForm
             // 
@@ -122,6 +128,7 @@
             Controls.Add(label1);
             Name = "KiralamaForm";
             Text = "KiralamaForm";
+            Load += KiralamaForm_Load;
             ((System.ComponentModel.ISupportInitialize)dtg_kiralamalar).EndInit();
             ResumeLayout(false);
             PerformLayout();
