@@ -25,6 +25,12 @@ namespace RentACar
 
         private void KiralamaForm_Load(object sender, EventArgs e)
         {
+           var m= _context.Musteriler.Find(_musteri.Id);
+            if (_musteri.Id != m.Id)
+            {
+                MessageBox.Show("Yetkisiz Giriş");
+            }
+
             dtg_kiralamalar.CellDoubleClick += dtg_kiralamalar_CellDoubleClick;//Doubleclick olayını elle bağlama
             dtg_kiralamalar.ReadOnly = true;//Grid ayarı tıklamayı kolaylaştır
             dtg_kiralamalar.SelectionMode = DataGridViewSelectionMode.FullRowSelect;//Tüm satırı seç
@@ -45,6 +51,7 @@ namespace RentACar
         {
             try
             {
+
                 DataTable dataTable = new DataTable();
                 dataTable.Columns.Add("Kiralama No", typeof(int));
                 dataTable.Columns.Add("Başlangıç Tarihi", typeof(DateTime));
@@ -54,15 +61,18 @@ namespace RentACar
                 dataTable.Columns.Add("Müşteri", typeof(string));
                 dataTable.Columns.Add("Durum", typeof(string));
 
+              
                 var kiralamaListesi = _context.Kiralamalar
-                    .Where(i => _musteri != null || i.MusteriId == _musteri.Id)
+                    .Where(i => i.MusteriId == _musteri.Id&&i.Musteri.AdSoyad==_musteri.AdSoyad)
                     .Include(i => i.Araba)
                     .ThenInclude(a => a.Marka)
                     .Include(i => i.Musteri)
                     .Include(b => b.Bildirimler).ToList();
 
+                
                 foreach (var kiralama in kiralamaListesi)
                 {
+                   
                     string aracBilgisi = kiralama.Araba != null && kiralama.Araba.Marka != null ?
                         $"{kiralama.Araba.Model}" : "Bilinmiyor";
                     string musteriBilgisi = kiralama.Musteri != null ?

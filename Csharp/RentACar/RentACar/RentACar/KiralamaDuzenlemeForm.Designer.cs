@@ -132,6 +132,7 @@
             // 
             // dtp_baslaTarih
             // 
+            dtp_baslaTarih.Enabled = false;
             dtp_baslaTarih.Format = DateTimePickerFormat.Short;
             dtp_baslaTarih.Location = new Point(177, 113);
             dtp_baslaTarih.Name = "dtp_baslaTarih";
@@ -140,6 +141,7 @@
             // 
             // dtp_baslaSaat
             // 
+            dtp_baslaSaat.Enabled = false;
             dtp_baslaSaat.Format = DateTimePickerFormat.Time;
             dtp_baslaSaat.Location = new Point(275, 113);
             dtp_baslaSaat.Name = "dtp_baslaSaat";
@@ -173,6 +175,7 @@
             btn_Kaydet.TabIndex = 13;
             btn_Kaydet.Text = "Kaydet";
             btn_Kaydet.UseVisualStyleBackColor = false;
+            btn_Kaydet.Click += btn_Kaydet_Click;
             // 
             // btn_Hesapla
             // 
@@ -185,6 +188,7 @@
             btn_Hesapla.TabIndex = 14;
             btn_Hesapla.Text = "Hesapla";
             btn_Hesapla.UseVisualStyleBackColor = false;
+            btn_Hesapla.Click += btn_Hesapla_Click;
             // 
             // btn_Iptal
             // 
@@ -197,6 +201,7 @@
             btn_Iptal.TabIndex = 15;
             btn_Iptal.Text = "İptal";
             btn_Iptal.UseVisualStyleBackColor = false;
+            btn_Iptal.Click += btn_Iptal_Click;
             // 
             // KiralamaDuzenlemeForm
             // 
@@ -223,6 +228,7 @@
             Controls.Add(label1);
             Name = "KiralamaDuzenlemeForm";
             Text = "KiralamaDuzenlemeForm";
+            Load += KiralamaDuzenlemeForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }

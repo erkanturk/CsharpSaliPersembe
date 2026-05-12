@@ -10,7 +10,7 @@ namespace RentACar.Data
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=204-HOCAPC1;Database=RentACar;uid=sa;pwd=1;TrustServerCertificate=true");
+            optionsBuilder.UseSqlServer("Server=192.168.1.163;Database=RentACar;uid=sa;pwd=1;TrustServerCertificate=true");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

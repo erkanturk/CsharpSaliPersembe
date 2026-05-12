@@ -135,6 +135,10 @@ namespace RentACar
                 {
                     bildirim.Kiralama.BitisTarihi = bildirim.YeniBitisTarihi.Value;
                 }
+                else if(bildirim.Tip==BildirimTipi.TarihKisaltma&&bildirim.YeniBitisTarihi.HasValue)
+                {
+                    bildirim.Kiralama.BitisTarihi = bildirim.YeniBitisTarihi.Value;
+                }
                 context.SaveChanges();
                 LoadData();
                 MessageBox.Show("Talep Onaylandı.");

@@ -182,6 +182,7 @@
             btnIptal.TabIndex = 13;
             btnIptal.Text = "İptal";
             btnIptal.UseVisualStyleBackColor = false;
+            btnIptal.Click += btnIptal_Click;
             // 
             // OdemeForm
             // 

@@ -198,7 +198,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Arial", 12F, FontStyle.Bold);
-            label4.ForeColor = SystemColors.ControlDark;
+            label4.ForeColor = Color.Gray;
             label4.Location = new Point(17, 213);
             label4.Name = "label4";
             label4.Size = new Size(96, 19);
@@ -209,7 +209,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Arial", 12F, FontStyle.Bold);
-            label3.ForeColor = SystemColors.ControlDark;
+            label3.ForeColor = Color.Gray;
             label3.Location = new Point(17, 154);
             label3.Name = "label3";
             label3.Size = new Size(44, 19);
@@ -220,7 +220,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Arial", 12F, FontStyle.Bold);
-            label2.ForeColor = SystemColors.ControlDark;
+            label2.ForeColor = Color.Gray;
             label2.Location = new Point(17, 95);
             label2.Name = "label2";
             label2.Size = new Size(65, 19);
@@ -231,7 +231,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Arial", 12F, FontStyle.Bold);
-            label1.ForeColor = SystemColors.ControlDark;
+            label1.ForeColor = Color.Gray;
             label1.Location = new Point(17, 36);
             label1.Name = "label1";
             label1.Size = new Size(83, 19);

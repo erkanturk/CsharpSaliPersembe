@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Security.Cryptography;
 using System.Text;
 using System.Windows.Forms;
 
@@ -20,7 +21,7 @@ namespace RentACar
             YilEkle();
             cmbAy.SelectedIndex = 0;
             cmbYil.SelectedIndex = 0;
-           
+
         }
         private void YilEkle()
         {
@@ -52,7 +53,7 @@ namespace RentACar
             string kartNo = new string(txtKartNo.Text.Where(char.IsDigit).ToArray());
             if (kartNo.Length != 16)
             {
-                MessageBox.Show("Geçerli bir kart numarası giriniz","Uyarı",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+                MessageBox.Show("Geçerli bir kart numarası giriniz", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
             if (string.IsNullOrWhiteSpace(txtKartSahibi.Text))
@@ -65,9 +66,38 @@ namespace RentACar
                 MessageBox.Show("Geçerli bir Cvv giriniz", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-           
-          
-          
+            string hashedKartNo = HashKartNo(kartNo);
+
+            var result = MessageBox.Show($"Ödeme Özeti:\n\n" +
+                $"Tutar:{_kiralama.ToplamTutar:N2}₺\n" +
+                $"Kart:**** **** **** {kartNo.Substring(12)}\n" +
+                $"Kart Sahibi: {txtKartSahibi.Text}\n\n" +
+                $"Ödemeyi Onaylıyor Musunuz?",
+                $"Ödeme Onayı", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                MessageBox.Show($"Ödeme Başarılı:\n\n" +
+                $"İşlem No:{Guid.NewGuid().ToString().Substring(0,8).ToUpper()}₺\n" +
+                $"Tutar: {_kiralama.ToplamTutar:N2}\n",
+                $"Ödemeyi Başarılı",
+                 MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.DialogResult = DialogResult.OK;
+                this.Close();
+            }
+
+
+        }
+        private static string HashKartNo(string kartNo)
+        {
+            using var sha256 = SHA256.Create();
+            byte[] bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(kartNo));
+            return Convert.ToBase64String(bytes);
+        }
+
+        private void btnIptal_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.OK;
+            this.Close();
         }
     }
 }
